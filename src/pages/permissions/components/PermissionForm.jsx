@@ -58,9 +58,6 @@ export const PermissionForm = ({ open, handleClose, onPermissionCreated, permiss
             </IconButton>
             <DialogContent dividers>
             <Container>
-                {/* <Typography variant="h4" component="h1" gutterBottom>
-                    Crear Permiso
-                </Typography> */}
                 <Box component="form" 
                     onSubmit={handleSubmit(onSubmit)} 
                     sx={{display: 'flex', flexDirection: 'column', gap: 2}}>
